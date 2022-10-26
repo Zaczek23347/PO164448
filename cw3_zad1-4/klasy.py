@@ -8,7 +8,7 @@ class Person:
 
 
 class Coin:
-    def __init__(self, side: bool) -> None:
+    def __init__(self) -> None:
         self.side = side
 
     def show_side(self) -> bool:
